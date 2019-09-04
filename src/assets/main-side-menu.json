@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Home",
+        "url": "/home",
+        "icon": "home"
+    },
+    {
+        "title": "Menu1",
+        "url": "/menu1",
+        "icon": "list",
+        "subMenu": [
+            {
+                "title": "Submenu 1",
+                "url": "/submenu1",
+                "icon": "person"
+            },
+            {
+                "title": "Submenu 2",
+                "url": "/submenu2",
+                "icon": "car"
+            }
+        ]
+    }
+]

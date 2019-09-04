@@ -1,0 +1,35 @@
+[
+    {
+        "cards": [
+            {
+                "title": "Title card 1",
+                "subtitle": "Subtitle card 1",
+                "img": "assets/img/1.webp",
+                "size": 6,
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odio iusto labore id! Expedita odit aut veritatis facere quia assumenda hic itaque ipsa atque impedit, optio minima nulla obcaecati maiores.",
+                "buttonList": [
+                    {
+                        "text": "Card 1",
+                        "url": "card1",
+                        "color": "light",
+                        "icon": "car",
+                        "direction": "forward"
+                    }
+                ]
+            },
+            {
+                "title": "Title card 2",
+                "subtitle": "Subtitle card 2",
+                "img": "assets/img/2.webp",
+                "size": 3,
+                "buttonList": [
+                    {
+                        "text": "Card 2",
+                        "url": "card2",
+                        "direction": "forward"
+                    }
+                ]
+            }
+        ]
+    }
+]

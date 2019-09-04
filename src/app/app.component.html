@@ -1,0 +1,22 @@
+<rim-ion-loader></rim-ion-loader>
+<ion-app>
+  <ion-menu type="overlay" side="start" slot="start">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <div class="item-container">
+        <rim-side-menu [url]="SIDEMENU_URL"></rim-side-menu>
+        <ion-menu-toggle>
+          <ion-item routerLink="/logout" routerDirection="forward" menu-close>
+            <ion-icon name="log-out" slot="start"></ion-icon>
+            <ion-label>Logout</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </div>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
+</ion-app>

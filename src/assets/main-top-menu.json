@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Home",
+        "url": "/home"
+    },
+    {
+        "title": "Menu1",
+        "url": "/menu1"
+    },
+    {
+        "title": "Menu2",
+        "url": "/menu2"
+    }
+]
